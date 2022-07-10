@@ -1,20 +1,23 @@
 #main{
   background-color: beige;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  text-align: center;
+  margin: 30px 30px;
+}
+
+/*
+#img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+*/
+#main >> p {
+  text-align: center;
 }
 
 #image {
+  display: block;
   max-width: 100%;
   height: auto;
-  align-items: center;
-}
-
-#title {
-  text-align: center;
-}
-
-#img-caption {
-  text-align: center;
 }
